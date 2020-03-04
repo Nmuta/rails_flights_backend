@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id: 1
+  origin: MyText
+  destination: MyText
+  flightNumber: 1
+  depart: 2020-03-04 13:54:26
+  arrive: 2020-03-04 13:54:26
+  nonstop: false
+
+two:
+  id: 1
+  origin: MyText
+  destination: MyText
+  flightNumber: 1
+  depart: 2020-03-04 13:54:26
+  arrive: 2020-03-04 13:54:26
+  nonstop: false
