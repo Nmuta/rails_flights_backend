@@ -8,6 +8,12 @@ class FlightsController < ApplicationController
     render json: @flights
   end
 
+  def query
+    found = Flight.where("origin LIKE ? AND destination LIKE ? ", "%#{params[:city1]}%", "%#{params[:city2]}%")
+    flights = found
+    render json: flights
+  end
+
   # GET /flights/1
   def show
     render json: @flight
